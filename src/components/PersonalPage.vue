@@ -235,10 +235,74 @@
       <el-footer>
         <el-container>
           <el-main>
-            <el-card class="bottomMainCard"></el-card>
+            <el-card class="bottomMainCard">
+
+              <div class="bottomCardTitle">
+                我的活动记录
+              </div>
+              <el-divider></el-divider>
+
+              <el-col :span="24" v-for="item in 4" :key="item">
+                <el-card shadow="hover"  :body-style="{ padding: '15px' }">
+                  <el-image
+                      :src=pic1
+                      class="show"></el-image>
+                  <span class="text">软件工程系-软件工程系党总支-简介-动态</span>
+                  <span class="time">2022-10-30</span>
+                </el-card>
+              </el-col>
+
+            </el-card>
           </el-main>
           <el-aside width="35.31%">
-            <el-card class="bottomSideCard"></el-card>
+            <el-card class="bottomSideCard">
+
+              <div class="bottomCardTitle">
+                学习统计
+              </div>
+              <el-divider></el-divider>
+
+              <div class="bottomSideCardContext">
+                <el-col :span="8">
+                  <el-col :span="24">
+                    <i class="el-icon-user-solid"></i>
+                  </el-col>
+                  我的支部
+                </el-col>
+                <el-col :span="8">
+                  <el-col :span="24">
+                    <i class="el-icon-user-solid"></i>
+                  </el-col>
+                  三会一课
+                </el-col>
+                <el-col :span="8">
+                  <el-col :span="24">
+                    <i class="el-icon-user-solid"></i>
+                  </el-col>
+                  我的笔记
+                </el-col>
+
+                <el-col :span="8">
+                  <el-col :span="24">
+                    <i class="el-icon-user-solid"></i>
+                  </el-col>
+                  我的收藏
+                </el-col>
+                <el-col :span="8">
+                  <el-col :span="24">
+                    <i class="el-icon-user-solid"></i>
+                  </el-col>
+                  我的评论
+                </el-col>
+                <el-col :span="8">
+                  <el-col :span="24">
+                    <i class="el-icon-user-solid"></i>
+                  </el-col>
+                  资料修改
+                </el-col>
+
+              </div>
+            </el-card>
           </el-aside>
         </el-container>
       </el-footer>
@@ -249,10 +313,12 @@
 </template>
 
 <script>
+import pic1 from "../assets/img/test.jpg"
 export default {
   name: "PersonalPage",
   data() {
     return {
+      pic1,
       circleUrl: "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
       squareUrl: "https://cube.elemecdn.com/9/c2/f0ee8a3c7c9638a54940382568c9dpng.png"
     }
@@ -261,17 +327,26 @@ export default {
 </script>
 
 <style scoped>
+.show{
+  width: 180px;
+  height: 100px;
+}
+.bottomCardTitle {
+  color: red;
+}
 
 .bottomSideCard {
+  text-align: center;
   margin-top: 21px;
   width: 400px;
-  height: 700px;
+  margin-left: 15px;
+  height: 200px;
 }
 
 .bottomMainCard {
   margin-left: 250px;
   width: 790px;
-  height: 800px;
+  height: 700px;
 }
 
 .mainDivider {

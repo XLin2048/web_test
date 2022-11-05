@@ -27,7 +27,7 @@
         <div class="cards">
 
           <el-col :span="24" v-for="item in 4" :key="item">
-            <el-card shadow="hover"  :body-style="{ padding: '15px' }">
+            <el-card shadow="hover"  :body-style="{ padding: '14px' }">
               <el-image
                   :src=pic1
                   class="show"></el-image>
@@ -83,7 +83,7 @@ export default {
 
 .cards {
   margin: 0 auto;
-
+  margin-top: 70px;
   width: 1200px;
 }
 

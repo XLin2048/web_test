@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-import Home from '../components/HomePage.vue'
+import Home from '../components/Home.vue'
 import PersonalPage from "@/components/PersonalPage";
 import FacultyNews from "@/components/FacultyNews";
 

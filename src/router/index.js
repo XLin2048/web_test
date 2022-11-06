@@ -6,6 +6,7 @@ Vue.use(VueRouter)
 import Home from '../components/Home.vue'
 import PersonalPage from "@/components/PersonalPage";
 import FacultyNews from "@/components/FacultyNews";
+import Index from "@/components/Index";
 
 const router = new VueRouter({
     routes: [
@@ -22,10 +23,16 @@ const router = new VueRouter({
                     path: '/faculty',
                     name: 'FacultyNews',
                     component: FacultyNews,
-                }
+                },
+                {
+                    path: '/index',
+                    name: 'Index',
+                    component: Index,
+                },
             ]
         },
-        {path: '/', redirect: '/home'},
+        {path: '/', redirect: '/index'},
+
 
     ]
 })

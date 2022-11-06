@@ -5,10 +5,10 @@
       <div class="top">
         <!-- 顶部 -->
         <el-row type="flex" justify="space-around" class="contentCenter topNav">
-          <el-col :span="8" class="navLeftAvater">
+          <el-col :span="8" class="navLeftAvater" >
             <!-- 头像 -->
-            <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"></el-avatar>
-            <div class="navUserId">123</div>
+            <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" style="margin-right: 10px; cursor: pointer;"></el-avatar>
+            <div class="navUserId" style="color: #fff;">欢迎您,XLin!</div>
           </el-col>
           <el-col :span="8" class="navMain">
             <img src="../assets/img/gzhu.png" alt="">
@@ -20,22 +20,25 @@
       </div>
       <div class="top_bottom contentCenter">
         <ul>
-          <li>123</li>
-          <li>123</li>
-          <li>123</li>
-          <li @click="enterFacultyNews">支部动态</li>
-          <li @click="enterPersonalPage">个人主页</li>
+          <li @click="enterHome(1)" :class="{navSelectActive:activeNum === 1}">首页</li>
+          <li @click="enterLearning(2)" :class="{navSelectActive:activeNum === 2}">党史学习</li>
+          <li>理论学习</li>
+          <li>党建资讯</li>
+          <li @click="enterFacultyNews(5)" :class="{navSelectActive:activeNum === 5}">支部动态</li>
+          <li @click="enterPersonalPage(6)" :class="{navSelectActive:activeNum === 6}">个人主页</li>
         </ul>
       </div>
     </el-header>
 
-    <div>
-      <router-view></router-view>
-    </div>
-    <!--    <el-main>-->
-    <!--      <router-view></router-view>-->
-    <!--    </el-main>-->
-    <!--    <el-footer></el-footer>-->
+    
+       <el-main class="minWidth">
+        
+         <router-view>
+          
+         </router-view>
+         
+       </el-main>
+       <el-footer></el-footer>
 
   </el-container>
 </template>
@@ -43,13 +46,27 @@
 <script>
 
 export default {
-  methods: {
-    enterPersonalPage() {
-      this.$router.push('/personal')
-    },
-    enterFacultyNews() {
-      this.$router.push('/faculty')
+  data(){
+    return {
+      activeNum:1
     }
+  },
+  methods: {
+    enterHome(num){
+      this.$router.push('/index')
+      this.activeNum = num
+      
+    }
+    ,enterPersonalPage(num) {
+      this.$router.push('/personal')
+      this.activeNum = num
+
+    },
+    enterFacultyNews(num) {
+      this.$router.push('/faculty')
+      this.activeNum = num
+    },
+    
   }
 }
 </script>
@@ -68,7 +85,8 @@ export default {
 .el-header {
   min-height: 140px !important;
   text-align: center;
-  background-color: #979797;
+  background-color: #fff;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.1);
 
 
 }
@@ -118,7 +136,6 @@ export default {
 
 .top_bottom ul li {
   list-style: none;
-  background-color: red;
   height: 30px;
   line-height: 30px;
   width: 80px;
@@ -126,6 +143,13 @@ export default {
 }
 
 .navSelectActive {
+  background-image: url(../assets/img/Group\ 1188.png);;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+li {
+  cursor: pointer;
 
 }
 </style>

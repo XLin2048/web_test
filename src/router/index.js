@@ -7,6 +7,7 @@ import Home from '../components/Home.vue'
 import PersonalPage from "@/components/PersonalPage";
 import FacultyNews from "@/components/FacultyNews";
 import Index from "@/components/Index";
+import historyLearning from "@/components/historyLearning";
 
 const router = new VueRouter({
     routes: [
@@ -28,6 +29,11 @@ const router = new VueRouter({
                     path: '/index',
                     name: 'Index',
                     component: Index,
+                },
+                {
+                    path: '/historyLearning',
+                    name: 'historyLearning',
+                    component: historyLearning,
                 },
             ]
         },

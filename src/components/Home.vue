@@ -31,14 +31,19 @@
     </el-header>
 
     
-       <el-main class="minWidth">
+       <el-main class="minWidth" >
         
-         <router-view>
+         <router-view style="padding-top: 20px;">
           
          </router-view>
          
        </el-main>
-       <el-footer></el-footer>
+       <el-footer class="minWidth">
+          <div class="contentCenter" style="line-height: 60px;">
+            <div style="text-align: center;">版权所属:XLin、Su、Ning</div>
+
+          </div>
+       </el-footer>
 
   </el-container>
 </template>
@@ -66,7 +71,11 @@ export default {
       this.$router.push('/faculty')
       this.activeNum = num
     },
-    
+    enterLearning(num){
+      this.$router.push('/historyLearning')
+      this.activeNum = num
+
+    } 
   }
 }
 </script>
@@ -150,6 +159,12 @@ export default {
 }
 li {
   cursor: pointer;
+
+}
+
+.el-footer {
+  min-height: 60px;
+  box-shadow: 0px -5px -8px 0px rgba(0, 0, 0, 0.1);
 
 }
 </style>

@@ -4,14 +4,14 @@
            <div class="contentCenter" style="min-height: 1200px;">
 
             <!-- 最顶部图片 -->
-            <div style="width: 100%;height: 250px;background-color: pink;"></div>
+            <div style="width: 100%;height: 250px;background-color: pink; margin-bottom: 20px;"></div>
 
             <!-- 左侧内容 -->
             <el-row :gutter="20" style="overflow: hidden;">
                 <el-col :span="18">
                     <!-- 上面部分 -->
                     <!-- 标题 -->
-                  <div>
+                  <div style="margin-bottom: 20px;">
                     <div class="titleInnerOut">
                         <div class="titleInner">
                             <div class="titleInner_title">广大资讯</div>

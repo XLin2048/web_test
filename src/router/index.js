@@ -8,6 +8,8 @@ import PersonalPage from "@/components/PersonalPage";
 import FacultyNews from "@/components/FacultyNews";
 import Index from "@/components/Index";
 import historyLearning from "@/components/historyLearning";
+import PartyNews from '@/components/PartyNews';
+import TheoryLearning from '@/components/TheoryLearning';
 
 const router = new VueRouter({
     routes: [
@@ -34,6 +36,16 @@ const router = new VueRouter({
                     path: '/historyLearning',
                     name: 'historyLearning',
                     component: historyLearning,
+                },
+                {
+                    path: '/Theory',
+                    name: 'TheoryLearning',
+                    component: TheoryLearning,
+                },
+                {
+                    path: '/Party',
+                    name: 'PartyNews',
+                    component: PartyNews,
                 },
             ]
         },

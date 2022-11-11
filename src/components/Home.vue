@@ -60,6 +60,7 @@ export default {
     enterHome(num){
       this.$router.push('/index')
       this.activeNum = num
+      window.localStorage.setItem('activeNum',this.activeNum)
       
     }
     ,enterPersonalPage(num) {

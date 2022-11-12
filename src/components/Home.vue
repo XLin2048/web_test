@@ -22,8 +22,8 @@
         <ul>
           <li @click="enterHome(1)" :class="{navSelectActive:activeNum === 1}">首页</li>
           <li @click="enterLearning(2)" :class="{navSelectActive:activeNum === 2}">党史学习</li>
-          <li>理论学习</li>
-          <li>党建资讯</li>
+          <li @click="entertheorylearning(3)" :class="{navSelectActive:activeNum === 3}">理论学习</li>
+          <li @click="enterpartynews(4)" :class="{navSelectActive:activeNum === 4}">党建资讯</li>
           <li @click="enterFacultyNews(5)" :class="{navSelectActive:activeNum === 5}">支部动态</li>
           <li @click="enterPersonalPage(6)" :class="{navSelectActive:activeNum === 6}">个人主页</li>
         </ul>
@@ -31,7 +31,7 @@
     </el-header>
 
     
-       <el-main class="minWidth" >
+       <el-main class="minWidth bgc" >
         
          <router-view style="padding-top: 20px;">
           
@@ -74,6 +74,18 @@ export default {
     },
     enterLearning(num){
       this.$router.push('/historyLearning')
+      this.activeNum = num
+
+    },
+
+    enterpartynews(num){
+      this.$router.push('/Party')
+      this.activeNum = num
+
+    },
+     
+    entertheorylearning(num){
+      this.$router.push('/Theory')
       this.activeNum = num
 
     } 
@@ -167,5 +179,8 @@ li {
   min-height: 60px;
   box-shadow: 0px -5px -8px 0px rgba(0, 0, 0, 0.1);
 
+}
+.bgc {
+  background-image: url(../assets/img/Group\ 1188.png)
 }
 </style>

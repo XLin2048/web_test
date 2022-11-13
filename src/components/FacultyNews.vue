@@ -2,8 +2,8 @@
   <div class="body contentCenter" style="margin-bottom: 50px;">
     <!-- 顶部的滚动 -->
     <el-carousel :interval="5000" arrow="always" style="margin-bottom: 20px;">
-      <el-carousel-item v-for="item in 4" :key="item">
-        <img src="../assets/img/Rectangle 1040.png" alt="">
+      <el-carousel-item v-for="(item,index) in plaques" :key="index">
+        <el-image :src="item"></el-image>
       </el-carousel-item>
     </el-carousel>
 
@@ -39,7 +39,7 @@
           <div style="display: flex;align-items: center;">
           <img src="../assets/img/4.jpg" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
           
-          软件工程系-软件工程系党委简介</div>
+          网络技术系-网络技术系党委简介</div>
           <!-- 日期 -->
           <div>2021-04-23</div>
         </div>
@@ -51,7 +51,7 @@
           <div style="display: flex;align-items: center;">
           <img src="../assets/img/4.jpg" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
           
-          软件工程系-软件工程系党委简介</div>
+          电子系-电子系党委简介</div>
           <!-- 日期 -->
           <div>2021-04-23</div>
         </div>
@@ -63,7 +63,7 @@
           <div style="display: flex;align-items: center;">
           <img src="../assets/img/4.jpg" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
           
-          软件工程系-软件工程系党委简介</div>
+          计算机系-计算机系党委简介</div>
           <!-- 日期 -->
           <div>2021-04-23</div>
         </div>
@@ -75,7 +75,7 @@
           <div style="display: flex;align-items: center;">
           <img src="../assets/img/4.jpg" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
           
-          软件工程系-软件工程系党委简介</div>
+          管理系-管理系党委简介</div>
           <!-- 日期 -->
           <div>2021-04-23</div>
         </div>
@@ -91,8 +91,13 @@
 
 </template>
 <script>
+import plaque1 from "../assets/img/t3.png"
   export default {
-
+data(){
+  return{
+    plaques:[plaque1]
+  }
+}
   }
 </script>
 <style scoped>

@@ -5,7 +5,7 @@
 
         <!-- 最顶部图片 -->
         <div class="pn-image">
-          image
+          <el-image :src="plaque" style="width: 1200px;height: 300px"></el-image>
         </div>
 
         <el-row :gutter="40">
@@ -36,6 +36,7 @@
 <script>
 import SerifheaderVue from "./tinycomponents/Serifheader.vue";
 import eventlistVue from "./tinycomponents/eventlist.vue";
+import plaque from "../assets/img/t4.png"
 export default {
   components: {
     SerifheaderVue,
@@ -43,6 +44,7 @@ export default {
   },
   data() {
     return {
+      plaque,
       event1:[
         {
           "text":"“党的二十大精神与中国式现代化理论与实践”高端论坛在广州大学举行",

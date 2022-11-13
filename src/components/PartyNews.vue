@@ -1,7 +1,7 @@
 <template >
   <div class="backgroundMain" style="min-width: 1200px;">
     <div class="minWidth">
-      <div class="contentCenter" style="min-height: 1200px;">
+      <div class="contentCenter" style="overflow: hidden;">
 
         <!-- 最顶部图片 -->
         <div class="pn-image">
@@ -115,7 +115,7 @@ export default {
 }
 .backgroundMain {
   background-image: url(../assets/img/Group\ 1188.png);
-  min-height: 1600px;
+  min-height: 1000px;
   background-repeat: no-repeat;
   background-size: cover;
 }

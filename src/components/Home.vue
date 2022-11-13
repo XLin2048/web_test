@@ -124,7 +124,7 @@ export default {
   background-color: #a40000;
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.3);
 
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 
   border-radius: 0 0 5px 5px;

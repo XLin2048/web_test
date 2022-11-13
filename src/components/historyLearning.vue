@@ -1,7 +1,7 @@
 <template >
     <div class="backgroundMain" style="min-width: 1200px;">
         <div class="minWidth">
-           <div class="contentCenter" style="min-height: 1200px;">
+           <div class="contentCenter" style="min-height: 1200px; overflow: hidden;">
 
             <!-- 最顶部图片 -->
             <div style="width: 100%;height: 250px;background-color: pink; margin-bottom: 20px;"></div>

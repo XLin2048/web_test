@@ -1,10 +1,16 @@
 <template>
-    <el-card class="bc-cardmain" body-style="{padding:0px}" shadow="never">
-        <img class="bc-img" :src="bookinfo.src"/>
-        <div class="bc-content">
-            <el-button color="black" type="text">{{bookinfo.text}}</el-button>
+    <el-card style="width:400px;height: 200px;margin-bottom: 20px;" shadow="hover">
+        <div style="display: flex;align-items: center;">
+            <img :src="bookinfo.src" alt="" class="bc-img">
+
+            <div @mouseover="mouseOver" @mouseleave="mouseLeave" :style="active" style="cursor:pointer;font-weight: bold;">
+                {{bookinfo.text}}
+            </div>
+
         </div>
+
     </el-card>
+    
 </template>
 <script>
 export default{
@@ -13,7 +19,20 @@ export default{
             type:Object,
             required:true,
         }
-    }
+    },
+    data(){
+        return {
+            active:''
+        }
+    },
+    methods: {
+        mouseOver(){
+            this.active = 'color:#a40001'
+        },
+        mouseLeave(){
+            this.active=''
+        }
+    },
 }
 </script>
 <style>
@@ -32,7 +51,7 @@ export default{
 }
 .bc-img{
     width: 200px;
-    height: 100%;
+    height: 160px;
     margin-right: 15px;
     background-color: #ede5e5;
 

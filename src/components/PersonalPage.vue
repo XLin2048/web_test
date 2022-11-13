@@ -17,14 +17,14 @@
               <div style="display: flex;align-items: center;justify-content: space-between;">
                 <img src="../assets/img/icon/Group 1670.png" style="width: 50px;">
                 <div style="font-size: 20px; color: #a40001;">123</div>
-                <div>总学习时长/h</div>
+                <div>收藏文章/篇</div>
               </div>
             </el-card>
             <el-card style="width: 290px;margin-right: 12px;cursor: pointer;" shadow="hover">
               <div style="display: flex;align-items: center;justify-content: space-between;">
                 <img src="../assets/img/icon/Group 1671.png" style="width: 50px;">
                 <div style="font-size: 20px; color: #a40001;">123</div>
-                <div>总学习时长/h</div>
+                <div>收藏视频/条</div>
               </div>
             </el-card>
           </div>
@@ -77,13 +77,13 @@
                       <div
                         style="width: 65px;height: 65px;background-color: #a40001;border-radius: 5px;line-height: 70px;text-align: center;">
                         <i class="el-icon-caret-bottom" style="font-size: 24px;color: #fff;"></i>
-                        <div style="font-weight: bold;">每日登陆</div>
+                        <div style="font-weight: bold;">阅读时长</div>
                       </div>
                     </el-col>
                     <el-col :span="16"
                       style="display: flex;flex-direction: column;align-items: center;justify-content: space-between;height: 110px;">
 
-                      <div>每日首次登陆</div>
+                      <div>每日阅读理论、党史达1h</div>
                       <div>
                         <el-progress :text-inside="true" :stroke-width="22" :percentage="100" status="warning"
                           style="width: 150px;"></el-progress>
@@ -107,13 +107,13 @@
                       <div
                         style="width: 65px;height: 65px;background-color: #a40001;border-radius: 5px;line-height: 70px;text-align: center;">
                         <i class="el-icon-caret-bottom" style="font-size: 24px;color: #fff;"></i>
-                        <div style="font-weight: bold;">每日登陆</div>
+                        <div style="font-weight: bold;">精品收藏</div>
                       </div>
                     </el-col>
                     <el-col :span="16"
                       style="display: flex;flex-direction: column;align-items: center;justify-content: space-between;height: 110px;">
 
-                      <div>每日首次登陆</div>
+                      <div>每日收藏优质内容数量达到3</div>
                       <div>
                         <el-progress :text-inside="true" :stroke-width="22" :percentage="100" status="warning"
                           style="width: 150px;"></el-progress>
@@ -137,13 +137,13 @@
                       <div
                         style="width: 65px;height: 65px;background-color: #a40001;border-radius: 5px;line-height: 70px;text-align: center;">
                         <i class="el-icon-caret-bottom" style="font-size: 24px;color: #fff;"></i>
-                        <div style="font-weight: bold;">每日登陆</div>
+                        <div style="font-weight: bold;">参与互动</div>
                       </div>
                     </el-col>
                     <el-col :span="16"
                       style="display: flex;flex-direction: column;align-items: center;justify-content: space-between;height: 110px;">
 
-                      <div>每日首次登陆</div>
+                      <div>每日通过阅读评论参与互动达到2</div>
                       <div>
                         <el-progress :text-inside="true" :stroke-width="22" :percentage="100" status="warning"
                           style="width: 150px;"></el-progress>
@@ -167,13 +167,13 @@
                       <div
                         style="width: 65px;height: 65px;background-color: #a40001;border-radius: 5px;line-height: 70px;text-align: center;">
                         <i class="el-icon-caret-bottom" style="font-size: 24px;color: #fff;"></i>
-                        <div style="font-weight: bold;">每日登陆</div>
+                        <div style="font-weight: bold;">做好笔记</div>
                       </div>
                     </el-col>
                     <el-col :span="16"
                       style="display: flex;flex-direction: column;align-items: center;justify-content: space-between;height: 110px;">
 
-                      <div>每日首次登陆</div>
+                      <div>每日通过学习做好笔记达2条</div>
                       <div>
                         <el-progress :text-inside="true" :stroke-width="22" :percentage="100" status="warning"
                           style="width: 150px;"></el-progress>
@@ -197,13 +197,13 @@
                       <div
                         style="width: 65px;height: 65px;background-color: #a40001;border-radius: 5px;line-height: 70px;text-align: center;">
                         <i class="el-icon-caret-bottom" style="font-size: 24px;color: #fff;"></i>
-                        <div style="font-weight: bold;">每日登陆</div>
+                        <div style="font-weight: bold;">每日互动</div>
                       </div>
                     </el-col>
                     <el-col :span="16"
                       style="display: flex;flex-direction: column;align-items: center;justify-content: space-between;height: 110px;">
 
-                      <div>每日首次登陆</div>
+                      <div>每日答题分数达到60</div>
                       <div>
                         <el-progress :text-inside="true" :stroke-width="22" :percentage="100" status="warning"
                           style="width: 150px;"></el-progress>
@@ -241,11 +241,10 @@
                 <img src="../assets/img/7.jpg" alt="" style="width: 180px;">
 
                 <div>
-                  <h3 class="card_content_hidden_single" style="margin-bottom: 10px;">当日活动 我为师生办好事 贯彻党的二十大精神</h3>
-                  <div style="margin-bottom: 10px;color: #979797;">贯彻党的二十大 我为师生办好事 我为师生办好事 我为师生办好事 我为师生办好事
-                    我为师生办好事我为师生办好事我为师生办好事</div>
+                  <h3 class="card_content_hidden_single" style="margin-bottom: 10px;">党日活动 | 网络技术系学生党支部开展“我为师生办好事，…</h3>
+                  <div style="margin-bottom: 10px;color: #979797;">为了把学习党史同总结经验、观照现实、推动工作结合起来，网络技术系学生党支部结合我校“我为师生办好事，贯彻党的二十大”活动…</div>
                   <div style="display: flex; justify-content: space-between;color: #979797;"">
-                    <div >2001-08-29</div>
+                    <div >2022-11-1</div>
                     <div>
                       <i class=" el-icon-edit" style="margin-right: 6px;">235</i>
                     <i class="el-icon-search" style="margin-right: 6px;">123</i>
@@ -261,11 +260,10 @@
             <img src="../assets/img/7.jpg" alt="" style="width: 180px;">
 
             <div>
-              <h3 class="card_content_hidden_single" style="margin-bottom: 10px;">当日活动 我为师生办好事 贯彻党的二十大精神</h3>
-              <div style="margin-bottom: 10px;color: #979797;">贯彻党的二十大 我为师生办好事 我为师生办好事 我为师生办好事 我为师生办好事
-                我为师生办好事我为师生办好事我为师生办好事</div>
+              <h3 class="card_content_hidden_single" style="margin-bottom: 10px;">支部动态 | 网络技术系学术党支部开展四月组织生活会</h3>
+              <div style="margin-bottom: 10px;color: #979797;">为深入学习党的历史，深刻认识党的两个历史问题决议总结的经验教训，弘扬党的优秀传统和作风…</div>
               <div style="display: flex; justify-content: space-between;color: #979797;"">
-                    <div >2001-08-29</div>
+                    <div >2022-11-1</div>
                     <div>
                       <i class=" el-icon-edit" style="margin-right: 6px;">235</i>
                 <i class="el-icon-search" style="margin-right: 6px;">123</i>
@@ -329,7 +327,7 @@
               <div style="display: flex;align-items: center;">
                   <img src="../assets/img/icon/Group 1662.png" alt=""
                       style="width: 40px; margin-right: 10px;">
-                  <span>总学习时长</span>
+                  <span>我的支部</span>
               </div>
               <span style="color: #912627;">431<i
                       style="font-size: 12px;color: black;">/h</i></span>
@@ -342,7 +340,7 @@
               <div style="display: flex;align-items: center;">
                   <img src="../assets/img/icon/Group 1662.png" alt=""
                       style="width: 40px; margin-right: 10px;">
-                  <span>总学习时长</span>
+                  <span>三会一课</span>
               </div>
               <span style="color: #912627;">431<i
                       style="font-size: 12px;color: black;">/h</i></span>
@@ -355,7 +353,7 @@
               <div style="display: flex;align-items: center;">
                   <img src="../assets/img/icon/Group 1662.png" alt=""
                       style="width: 40px; margin-right: 10px;">
-                  <span>总学习时长</span>
+                  <span>我的笔记</span>
               </div>
               <span style="color: #912627;">431<i
                       style="font-size: 12px;color: black;">/h</i></span>
@@ -368,7 +366,7 @@
               <div style="display: flex;align-items: center;">
                   <img src="../assets/img/icon/Group 1662.png" alt=""
                       style="width: 40px; margin-right: 10px;">
-                  <span>总学习时长</span>
+                  <span>我的收藏</span>
               </div>
               <span style="color: #912627;">431<i
                       style="font-size: 12px;color: black;">/h</i></span>
@@ -377,11 +375,24 @@
        
       </el-row>
       <el-row style="margin-bottom: 10px;">
+        <div style="display: flex ;align-items: center; justify-content: space-between;">
+          <div style="display: flex;align-items: center;">
+            <img src="../assets/img/icon/Group 1662.png" alt=""
+                 style="width: 40px; margin-right: 10px;">
+            <span>我的评论</span>
+          </div>
+          <span style="color: #912627;">431<i
+              style="font-size: 12px;color: black;">/h</i></span>
+
+        </div>
+
+      </el-row>
+      <el-row style="margin-bottom: 10px;">
           <div style="display: flex ;align-items: center; justify-content: space-between;">
               <div style="display: flex;align-items: center;">
                   <img src="../assets/img/icon/Group 1662.png" alt=""
                       style="width: 40px; margin-right: 10px;">
-                  <span>总学习时长</span>
+                  <span>资料修改</span>
               </div>
               <span style="color: #912627;">431<i
                       style="font-size: 12px;color: black;">/h</i></span>

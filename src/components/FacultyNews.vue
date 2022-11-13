@@ -1,96 +1,102 @@
 <template>
+  <div class="body contentCenter" style="margin-bottom: 50px;">
+    <!-- 顶部的滚动 -->
+    <el-carousel :interval="5000" arrow="always" style="margin-bottom: 20px;">
+      <el-carousel-item v-for="item in 4" :key="item">
+        <img src="../assets/img/Rectangle 1040.png" alt="">
+      </el-carousel-item>
+    </el-carousel>
 
-  <div>
-    <el-container>
-
-      <el-header>
-     
-      </el-header>
-
-      <el-main>
-        <div class="titleImg">
-          <el-carousel height="200px" arrow="always">
-            <el-carousel-item v-for="(item,index) in pics" :key="index">
-              <div class="img">
-                <el-image
-                    :src=item
-                ></el-image>
-              </div>
-            </el-carousel-item>
-          </el-carousel>
+    <!-- 下面的学院总支 -->
+    <!-- 标题 -->
+    <div style="border-bottom: 3px solid #a40001;margin-bottom: 10px;">
+      <div style="border-bottom: 2px solid #a40001;margin-bottom: 3px;">
+        <div
+          style="background-color: #a40001;width: 300px;text-align: center;height: 40px;line-height: 40px;color: #fff;font-size: 20px;border-radius: 5px 5px 0 0;margin-bottom: 2px;">
+          学院总支
         </div>
-      </el-main>
+      </div>
+    </div>
 
+    <!-- 下方内容 -->
 
-      <el-footer>
-
-        <div class="cards">
-
-          <el-col :span="24" v-for="item in 4" :key="item">
-            <el-card shadow="hover"  :body-style="{ padding: '14px' }">
-              <el-image
-                  :src=pic1
-                  class="show"></el-image>
-              <span class="text">软件工程系-软件工程系党总支-简介-动态</span>
-              <span class="time">2022-10-30</span>
-            </el-card>
-          </el-col>
-
+    <div>
+      <el-card shadow="hover" style="cursor: pointer;">
+        <div style="display: flex;align-items: center;justify-content: space-between;">
+          <!-- 左边图片文字 -->
+          <div style="display: flex;align-items: center;">
+          <img src="../assets/img/4.jpg" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
+          
+          软件工程系-软件工程系党委简介</div>
+          <!-- 日期 -->
+          <div>2021-04-23</div>
         </div>
-      </el-footer>
+      </el-card>
 
-    </el-container>
+      <el-card shadow="hover" style="cursor: pointer;">
+        <div style="display: flex;align-items: center;justify-content: space-between;">
+          <!-- 左边图片文字 -->
+          <div style="display: flex;align-items: center;">
+          <img src="../assets/img/4.jpg" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
+          
+          软件工程系-软件工程系党委简介</div>
+          <!-- 日期 -->
+          <div>2021-04-23</div>
+        </div>
+      </el-card>
+
+      <el-card shadow="hover" style="cursor: pointer;">
+        <div style="display: flex;align-items: center;justify-content: space-between;">
+          <!-- 左边图片文字 -->
+          <div style="display: flex;align-items: center;">
+          <img src="../assets/img/4.jpg" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
+          
+          软件工程系-软件工程系党委简介</div>
+          <!-- 日期 -->
+          <div>2021-04-23</div>
+        </div>
+      </el-card>
+
+      <el-card shadow="hover" style="cursor: pointer;">
+        <div style="display: flex;align-items: center;justify-content: space-between;">
+          <!-- 左边图片文字 -->
+          <div style="display: flex;align-items: center;">
+          <img src="../assets/img/4.jpg" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
+          
+          软件工程系-软件工程系党委简介</div>
+          <!-- 日期 -->
+          <div>2021-04-23</div>
+        </div>
+      </el-card>
+
+      <el-card shadow="hover" style="cursor: pointer;">
+        <div style="display: flex;align-items: center;justify-content: space-between;">
+          <!-- 左边图片文字 -->
+          <div style="display: flex;align-items: center;">
+          <img src="../assets/img/4.jpg" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
+          
+          软件工程系-软件工程系党委简介</div>
+          <!-- 日期 -->
+          <div>2021-04-23</div>
+        </div>
+      </el-card>
+
+      
+    </div>
+
+
 
   </div>
 
+
 </template>
-
 <script>
+  export default {
 
-import p2 from "../assets/img/2.jpg"
-import p3 from "../assets/img/3.jpg"
-import p4 from "../assets/img/4.jpg"
-import p5 from "../assets/img/5.jpg"
-import p6 from "../assets/img/6.jpg"
-import p7 from "../assets/img/7.jpg"
-import pic1 from "../assets/img/test.jpg"
-
-export default {
-  name: "FacultyNews",
-  data() {
-    return {
-      pic1,
-      pics: [p2, p3, p4, p5, p6, p7]
-    }
   }
-}
 </script>
-
 <style scoped>
-
-.time {
-  margin-left: 420px;
-}
-
-.text{
- margin-left: 50px;
-}
-
-.show {
-  width:300px;
-  height: 60px;
-}
-
-.cards {
-  margin: 0 auto;
-  margin-top: 70px;
-  width: 1200px;
-}
-
-.titleImg {
-  margin: 0 auto;
-  text-align: center;
-  width: 1200px;
-}
-
+  .body {
+    min-height: 900px;
+  }
 </style>

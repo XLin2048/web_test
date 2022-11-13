@@ -70,25 +70,52 @@ export default {
   },
   data() {
     return {
-      book_title: 'without images',
-      book_pic_title: "with image",
+      book_title: '党和国家领导人著作',
+      book_pic_title: "习近平新时代中国特色社会主义思想",
       bookinfos: [{
         src: '',
-        text: 'bookinfo1'
+        text: '《论中国共产党历史》'
       },
       {
         src: '',
-        text: 'bookinfo2'
+        text: '《习近平新时代中国特色社会主义思想学习问答》'
       },
       {
         src: '',
-        text: 'bookinfo3'
+        text: '《习近平谈治国理政》第三卷'
+      },
+      {
+        src: '',
+        text: '《习近平谈治国理政》第二卷'
+      },
+      {
+        src: '',
+        text: '《习近平谈治国理政》第一卷'
+      },
+      {
+        src: '',
+        text: '《习近平新时代中国特色社会主义思想学习纲要》'
+      },
+      {
+        src: '',
+        text: '《习近平新时代中国特色社会主义思想三十讲》'
+      },
+      {
+        src: '',
+        text: '《习近平总书记系列重要讲话读本（2016年版）》'
       },
        ],
       list_info: [
-        "No.1",
-        "No2",
-        "No3",
+        "毛泽东著作",
+        "周恩来著作",
+        "刘少奇著作",
+        "朱德著作",
+        "任弼时著作",
+        "邓小平著作",
+        "陈云著作",
+        "江泽民著作",
+        "刘少奇著作",
+        "胡锦涛著作",
       ]
     }
   }

@@ -29,8 +29,8 @@ export default {
 </script>
 <style scoped>
 .list_container {
-    height: 30px;
     widows: 600px;
+    padding-bottom:20px;
 }
 
 .el-ul{
@@ -38,6 +38,7 @@ export default {
 
 }
 .el-li {
+    height: 30px;
     list-style-type: disc;
     display: flex;
     font-weight: 500;
@@ -54,9 +55,10 @@ export default {
 }
 
 .el-date {
-    padding-left: 30px;
-    width: 150px;
+    padding-left: 15px;
+    width: 145px;
     height: 30px;
     line-height: 30px;
+    text-align: right;
 }
 </style>

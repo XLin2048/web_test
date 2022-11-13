@@ -41,7 +41,7 @@
                         </div>
 
                         <!-- 内容 -->
-                        <el-card style="padding: 2px; margin-bottom: 10px;" shadow="hover">
+                        <el-card style="padding: 2px; margin-bottom: 10px; cursor: pointer" shadow="hover">
                             <el-row>
                                 <el-col :span="8">
                                     <div class="card_img" id="content1">
@@ -72,7 +72,7 @@
                                 </el-col>
                             </el-row>
                         </el-card>
-                        <el-card style="padding: 2px; margin-bottom: 10px;" shadow="hover">
+                        <el-card style="padding: 2px; margin-bottom: 10px; cursor: pointer" shadow="hover">
                             <el-row>
                                 <el-col :span="8">
                                     <div class="card_img" id="content2">
@@ -102,7 +102,7 @@
                                 </el-col>
                             </el-row>
                         </el-card>
-                        <el-card style="padding: 2px; margin-bottom: 10px;" shadow="hover">
+                        <el-card style="padding: 2px; margin-bottom: 10px; cursor: pointer" shadow="hover">
                             <el-row>
                                 <el-col :span="8">
                                     <div class="card_img" id="content3">
@@ -132,7 +132,7 @@
                                 </el-col>
                             </el-row>
                         </el-card>
-                        <el-card style="padding: 2px; margin-bottom: 10px;" shadow="hover">
+                        <el-card style="padding: 2px; margin-bottom: 10px; cursor: pointer" shadow="hover">
                             <el-row>
                                 <el-col :span="8">
                                     <div class="card_img" id="content4">

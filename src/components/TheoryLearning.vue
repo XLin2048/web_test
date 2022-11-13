@@ -5,7 +5,7 @@
 
         <!-- 最顶部图片 -->
         <div class="tl-image">
-          image
+          <img class="tl-images" src="../assets/img/theory/Snipaste_2022-11-13_16-55-59.png"/>
         </div>
 
         <el-container>
@@ -13,10 +13,15 @@
             <div class="tl-subheader">
               <el-row :gutter="20">
                 <el-col :span="12">
-                  <div class="grid-content bg-purple"></div>
+                  <div class="grid-content">
+                    <img src="../assets/img/theory/Snipaste_2022-11-13_16-54-15.png" class="tl-images"/>
+                  </div>
                 </el-col>
                 <el-col :span="12">
-                  <div class="grid-content bg-purple"></div>
+                  <div class="grid-content">
+                    <img src="../assets/img/theory/Snipaste_2022-11-13_16-55-07.png" class="tl-images"/>
+
+                  </div>
                 </el-col>
               </el-row>
             </div>
@@ -73,35 +78,35 @@ export default {
       book_title: '党和国家领导人著作',
       book_pic_title: "习近平新时代中国特色社会主义思想",
       bookinfos: [{
-        src: '',
+        src: require('../assets/img/theory/1622104038230_275.jpg'),
         text: '《论中国共产党历史》'
       },
       {
-        src: '',
+        src: require('../assets/img/theory/1619095833656_322.jpg'),
         text: '《习近平新时代中国特色社会主义思想学习问答》'
       },
       {
-        src: '',
+        src: require('../assets/img/theory/1517192625733_736_3.png'),
         text: '《习近平谈治国理政》第三卷'
       },
       {
-        src: '',
+        src: require('../assets/img/theory/1517192625733_736_2.png'),
         text: '《习近平谈治国理政》第二卷'
       },
       {
-        src: '',
+        src: require('../assets/img/theory/1517192625733_736.jpg'),
         text: '《习近平谈治国理政》第一卷'
       },
       {
-        src: '',
+        src: require('../assets/img/theory/2019072209371414387.jpg'),
         text: '《习近平新时代中国特色社会主义思想学习纲要》'
       },
       {
-        src: '',
+        src: require('../assets/img/theory/2019050214541335841.jpg'),
         text: '《习近平新时代中国特色社会主义思想三十讲》'
       },
       {
-        src: '',
+        src: require('../assets/img/theory/1461123275026_802.jpg'),
         text: '《习近平总书记系列重要讲话读本（2016年版）》'
       },
        ],
@@ -122,6 +127,11 @@ export default {
 }
 </script>
 <style scoped>
+.tl-images{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .tl-item{
   height: 70px;
   width: 70px;
@@ -216,6 +226,6 @@ export default {
 
 .grid-content {
   border-radius: 4px;
-  min-height: 250px;
+  min-height: 210px;
 }
 </style>

@@ -5,17 +5,25 @@
             <div class="contentCenter">
 
                 <el-carousel :interval="5000" arrow="always" height="400px" style="margin-bottom: 20px;">
-                    <el-carousel-item>
-                        <img src="../assets/img/index/fb386228a7734fc19774fed33ebcdfb5.jpg" alt="">
+                    <el-carousel-item style="    display: table-cell;
+                                                vertical-align: middle;
+                                                text-align: center;">
+                        <img src="../assets/img/index/2021072716323621890.jpg" alt="" style="height:auto;width:auto;max-width:100%;max-height: 100%;object-fit: cover;">
                     </el-carousel-item>
-                    <el-carousel-item>
-                        <img src="../assets/img/index/dc93ec19ab0649c2a5941ac3c693cbd7.jpg" alt="">
+                    <el-carousel-item style="    display: table-cell;
+                                                vertical-align: middle;
+                                                text-align: center;">
+                        <img src="../assets/img/index/dc93ec19ab0649c2a5941ac3c693cbd7.jpg" alt="" style="height:auto;width:auto;max-width:100%;max-height: 100%;object-fit: cover;">
                     </el-carousel-item>
-                    <el-carousel-item>
-                        <img src="../assets/img/index/52908830a3b749658104cf49a6aedf3b.png" alt="">
+                    <el-carousel-item style="    display: table-cell;
+                                                vertical-align: middle;
+                                                text-align: center;">
+                        <img src="../assets/img/index/52908830a3b749658104cf49a6aedf3b.jpg" alt="" style="height:auto;width:auto;max-width:100%;max-height: 100%;object-fit: cover;">
                     </el-carousel-item>
-                    <el-carousel-item>
-                        <img src="../assets/img/index/4ef7a57c547c492c9e1eedee4f9b14e1.jpg" alt="">
+                    <el-carousel-item style="    display: table-cell;
+                                                vertical-align: middle;
+                                                text-align: center;">
+                        <img src="../assets/img/index/4ef7a57c547c492c9e1eedee4f9b14e1.jpg" alt="" style="height:auto;width:auto;max-width:100%;max-height: 100%;object-fit: cover;">
                     </el-carousel-item>
                 </el-carousel>
             </div>

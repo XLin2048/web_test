@@ -4,7 +4,9 @@
            <div class="contentCenter" style="min-height: 1200px; overflow: hidden;">
 
             <!-- 最顶部图片 -->
-            <div style="width: 100%;height: 250px;background-color: pink; margin-bottom: 20px;"></div>
+            <div style="width: 100%;height: 250px;background-color: pink; margin-bottom: 20px;">
+                <img src="../assets/img/history/Snipaste_2022-11-13_17-50-40.png" alt="" class="hl-images"/>
+            </div>
 
             <!-- 左侧内容 -->
             <el-row :gutter="20" style="overflow: hidden;">
@@ -195,6 +197,11 @@ export default {
 }
 </script>
 <style scoped>
+    .hl-images{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
      .backgroundMain {
         background-image: url(../assets/img/Group\ 1188.png);
         min-height: 1600px;

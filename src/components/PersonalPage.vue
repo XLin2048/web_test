@@ -9,21 +9,21 @@
             <el-card style="width: 290px;margin-right: 12px;cursor: pointer;" shadow="hover">
               <div style="display: flex;align-items: center;justify-content: space-between;">
                 <img src="../assets/img/icon/Group 1662.png" style="width: 50px;">
-                <div style="font-size: 20px; color: #a40001;">123</div>
+                <div style="font-size: 20px; color: #a40001;">26.7</div>
                 <div>总学习时长/h</div>
               </div>
             </el-card>
             <el-card style="width: 270px;margin-right: 12px;cursor: pointer;" shadow="hover">
               <div style="display: flex;align-items: center;justify-content: space-between;">
                 <img src="../assets/img/icon/Group 1670.png" style="width: 50px;">
-                <div style="font-size: 20px; color: #a40001;">123</div>
+                <div style="font-size: 20px; color: #a40001;">12</div>
                 <div>收藏文章/篇</div>
               </div>
             </el-card>
             <el-card style="width: 290px;margin-right: 12px;cursor: pointer;" shadow="hover">
               <div style="display: flex;align-items: center;justify-content: space-between;">
                 <img src="../assets/img/icon/Group 1671.png" style="width: 50px;">
-                <div style="font-size: 20px; color: #a40001;">123</div>
+                <div style="font-size: 20px; color: #a40001;">23</div>
                 <div>收藏视频/条</div>
               </div>
             </el-card>

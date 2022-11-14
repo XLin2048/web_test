@@ -194,7 +194,7 @@ export default {
 .tl-image {
   width: 100%;
   height: 370px;
-  background-color: pink;
+  /* background-color: pink; */
   margin-bottom: 20px;
 }
 

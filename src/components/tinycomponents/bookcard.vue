@@ -58,7 +58,7 @@ export default {
     width: 200px;
     height: 160px;
     margin-right: 15px;
-    background-color: #ede5e5;
+    /* background-color: #ede5e5; */
     display: table-cell;
     vertical-align: middle;
     text-align: center;

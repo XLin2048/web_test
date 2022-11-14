@@ -5,7 +5,7 @@
 
         <!-- 最顶部图片 -->
         <div class="tl-image">
-          <img class="tl-images" src="../assets/img/theory/Snipaste_2022-11-13_16-55-59.png"/>
+          <img class="tl-images" src="../assets/img/theory/Snipaste_2022-11-13_16-55-59.png" />
         </div>
 
         <el-container>
@@ -14,12 +14,12 @@
               <el-row :gutter="20">
                 <el-col :span="12">
                   <div class="grid-content">
-                    <img src="../assets/img/theory/Snipaste_2022-11-13_16-54-15.png" class="tl-images"/>
+                    <img src="../assets/img/theory/Snipaste_2022-11-13_16-54-15.png" class="tl-images" />
                   </div>
                 </el-col>
                 <el-col :span="12">
                   <div class="grid-content">
-                    <img src="../assets/img/theory/Snipaste_2022-11-13_16-55-07.png" class="tl-images"/>
+                    <img src="../assets/img/theory/Snipaste_2022-11-13_16-55-07.png" class="tl-images" />
 
                   </div>
                 </el-col>
@@ -27,16 +27,14 @@
             </div>
             <div class="tl-main">
               <SerifheaderVue :title="book_pic_title" />
-              <div class="tl-cardarea" >
-                <bookcard 
-                        v-for="bookinfo in bookinfos"
-                        :bookinfo="bookinfo">
+              <div class="tl-cardarea">
+                <bookcard v-for="bookinfo in bookinfos" :bookinfo="bookinfo">
                 </bookcard>
               </div>
               <SerifheaderVue :title="book_title" />
               <ul clss="tl-ul">
                 <li class="tl-li" v-for="item in list_info">
-                  · {{item}}
+                  · {{ item }}
                 </li>
               </ul>
 
@@ -44,19 +42,55 @@
           </el-main>
           <el-aside class="tl-side">
             <div class="tl-sideheader">
-              <div class="tl-decroblock"/>
+              <div class="tl-decroblock" />
               <div class="tl-asideheader_text">分类</div>
             </div>
             <div class="tl-card-container">
-              <el-button class="tl-item" type="primary" icon="el-icon-edit" circle></el-button>
-              <el-button class="tl-item" type="primary" icon="el-icon-edit" circle></el-button>
-              <el-button class="tl-item" type="primary" icon="el-icon-edit" circle></el-button>
-              <el-button class="tl-item" type="primary" icon="el-icon-edit" circle></el-button>
-              <el-button class="tl-item" type="primary" icon="el-icon-edit" circle></el-button>
-              <el-button class="tl-item" type="primary" icon="el-icon-edit" circle></el-button>
-              <el-button class="tl-item" type="primary" icon="el-icon-edit" circle></el-button>
-              <el-button class="tl-item" type="primary" icon="el-icon-edit" circle></el-button>
-              <el-button class="tl-item" type="primary" icon="el-icon-edit" circle></el-button>
+              <div class="tl-item grid-content">
+                <img src="../assets/img/icon/theory/招募.png"
+                  style="height:auto;width:auto;max-width:80%;max-height: 80%;object-fit: cover;" />
+                <div style="margin-top: -5px; font-size:small;">思想理论</div>
+              </div>
+              <div class="tl-item grid-content">
+                <img src="../assets/img/icon/theory/学历.png"
+                  style="height:auto;width:auto;max-width:80%;max-height: 80%;object-fit: cover;" />
+                <div style="margin-top: -5px; font-size:small;">党章党规</div>
+              </div>
+              <div class="tl-item grid-content">
+                <img src="../assets/img/icon/theory/奖项.png"
+                  style="height:auto;width:auto;max-width:80%;max-height: 80%;object-fit: cover;" />
+                <div style="margin-top: -5px; font-size:small;">先进典型</div>
+              </div>
+              <div class="tl-item grid-content">
+                <img src="../assets/img/icon/打卡签到.png"
+                  style="height:auto;width:auto;max-width:80%;max-height: 80%;object-fit: cover;" />
+                <div style="margin-top: -5px; font-size:small;">宪法法律</div>
+              </div>
+              <div class="tl-item grid-content">
+                <img src="../assets/img/icon/theory/兴趣.png"
+                  style="height:auto;width:auto;max-width:80%;max-height: 80%;object-fit: cover;" />
+                <div style="margin-top: -5px; font-size:small;">文章汇总</div>
+              </div>
+              <div class="tl-item grid-content">
+                <img src="../assets/img/icon/theory/书籍.png"
+                  style="height:auto;width:auto;max-width:80%;max-height: 80%;object-fit: cover;" />
+                <div style="margin-top: -5px; font-size:small;">党务知识</div>
+              </div>
+              <div class="tl-item grid-content">
+                <img src="../assets/img/icon/theory/播放.png"
+                  style="height:auto;width:auto;max-width:80%;max-height: 80%;object-fit: cover;" />
+                <div style="margin-top: -5px; font-size:small;">课件节目</div>
+              </div>
+              <div class="tl-item grid-content">
+                <img src="../assets/img/icon/theory/清单.png"
+                  style="height:auto;width:auto;max-width:80%;max-height: 80%;object-fit: cover;" />
+                <div style="margin-top: -5px; font-size:small;">专题荟萃</div>
+              </div>
+              <div class="tl-item grid-content">
+                <img src="../assets/img/icon/theory/下载.png"
+                  style="height:auto;width:auto;max-width:80%;max-height: 80%;object-fit: cover;" />
+                <div style="margin-top: -5px; font-size:small;">下载中心</div>
+              </div>
 
             </div>
           </el-aside>
@@ -109,7 +143,7 @@ export default {
         src: require('../assets/img/theory/1461123275026_802.jpg'),
         text: '《习近平总书记系列重要讲话读本（2016年版）》'
       },
-       ],
+      ],
       list_info: [
         "毛泽东著作",
         "周恩来著作",
@@ -127,46 +161,57 @@ export default {
 }
 </script>
 <style scoped>
-.tl-images{
+.tl-images {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.tl-item{
+
+.tl-item {
   height: 70px;
   width: 70px;
   margin-bottom: 10px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
-.tl-card-container{
+
+.tl-card-container {
   margin-top: 20px;
   background-color: white;
   border-radius: 10px;
-  height:250px;
+  height: 250px;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
+
 }
-.tl-asideheader_text{
+
+.tl-asideheader_text {
   height: 35px;
   font-size: larger;
   padding-left: 10px;
   font-weight: 600;
   line-height: 35px;
 }
+
 .tl-sideheader {
   display: flex;
   justify-content: left;
   align-items: center;
+  background-color: #f7f6f6;
+  border-radius: 5px;
+  padding: 10px;
 
 }
 
-.tl-decroblock{
+.tl-decroblock {
   height: 35px;
   width: 10px;
   background-color: #912627;
 }
+
 .tl-li {
   list-style-type: disc;
   display: block;
@@ -226,6 +271,6 @@ export default {
 
 .grid-content {
   border-radius: 4px;
-  min-height: 210px;
+  min-height: 76px;
 }
 </style>

@@ -9,21 +9,21 @@
             <el-card style="width: 290px;margin-right: 12px;cursor: pointer;" shadow="hover">
               <div style="display: flex;align-items: center;justify-content: space-between;">
                 <img src="../assets/img/icon/Group 1662.png" style="width: 50px;">
-                <div style="font-size: 20px; color: #a40001;">123</div>
+                <div style="font-size: 20px; color: #a40001;">26.7</div>
                 <div>总学习时长/h</div>
               </div>
             </el-card>
             <el-card style="width: 270px;margin-right: 12px;cursor: pointer;" shadow="hover">
               <div style="display: flex;align-items: center;justify-content: space-between;">
                 <img src="../assets/img/icon/Group 1670.png" style="width: 50px;">
-                <div style="font-size: 20px; color: #a40001;">123</div>
+                <div style="font-size: 20px; color: #a40001;">12</div>
                 <div>收藏文章/篇</div>
               </div>
             </el-card>
             <el-card style="width: 290px;margin-right: 12px;cursor: pointer;" shadow="hover">
               <div style="display: flex;align-items: center;justify-content: space-between;">
                 <img src="../assets/img/icon/Group 1671.png" style="width: 50px;">
-                <div style="font-size: 20px; color: #a40001;">123</div>
+                <div style="font-size: 20px; color: #a40001;">23</div>
                 <div>收藏视频/条</div>
               </div>
             </el-card>
@@ -325,12 +325,12 @@
       <el-row style="margin-bottom: 10px;">
           <div style="display: flex ;align-items: center; justify-content: space-between;">
               <div style="display: flex;align-items: center;">
-                  <img src="../assets/img/icon/Group 1662.png" alt=""
+                  <img src="../assets/img/icon/person/组织.png" alt=""
                       style="width: 40px; margin-right: 10px;">
                   <span>我的支部</span>
               </div>
-              <span style="color: #912627;">431<i
-                      style="font-size: 12px;color: black;">/h</i></span>
+              <span style="color: #912627; cursor: pointer;">进入 ><i
+                      style="font-size: 12px;color: black;"></i></span>
 
           </div>
          
@@ -338,12 +338,12 @@
       <el-row style="margin-bottom: 10px;">
           <div style="display: flex ;align-items: center; justify-content: space-between;">
               <div style="display: flex;align-items: center;">
-                  <img src="../assets/img/icon/Group 1662.png" alt=""
+                  <img src="../assets/img/icon/person/考勤.png" alt=""
                       style="width: 40px; margin-right: 10px;">
                   <span>三会一课</span>
               </div>
-              <span style="color: #912627;">431<i
-                      style="font-size: 12px;color: black;">/h</i></span>
+              <span style="color: #912627; cursor: pointer;">进入 ><i
+                      style="font-size: 12px;color: black;"></i></span>
 
           </div>
          
@@ -351,12 +351,12 @@
       <el-row style="margin-bottom: 10px;">
           <div style="display: flex ;align-items: center; justify-content: space-between;">
               <div style="display: flex;align-items: center;">
-                  <img src="../assets/img/icon/Group 1662.png" alt=""
+                  <img src="../assets/img/icon/person/日记.png" alt=""
                       style="width: 40px; margin-right: 10px;">
                   <span>我的笔记</span>
               </div>
-              <span style="color: #912627;">431<i
-                      style="font-size: 12px;color: black;">/h</i></span>
+              <span style="color: #912627; cursor: pointer;">进入 ><i
+                      style="font-size: 12px;color: black;"></i></span>
 
           </div>
           
@@ -364,12 +364,12 @@
       <el-row style="margin-bottom: 10px;">
           <div style="display: flex ;align-items: center; justify-content: space-between;">
               <div style="display: flex;align-items: center;">
-                  <img src="../assets/img/icon/Group 1662.png" alt=""
+                  <img src="../assets/img/icon/person/收藏夹.png" alt=""
                       style="width: 40px; margin-right: 10px;">
                   <span>我的收藏</span>
               </div>
-              <span style="color: #912627;">431<i
-                      style="font-size: 12px;color: black;">/h</i></span>
+              <span style="color: #912627; cursor: pointer;">进入 ><i
+                      style="font-size: 12px;color: black;"></i></span>
 
           </div>
        
@@ -377,12 +377,12 @@
       <el-row style="margin-bottom: 10px;">
         <div style="display: flex ;align-items: center; justify-content: space-between;">
           <div style="display: flex;align-items: center;">
-            <img src="../assets/img/icon/Group 1662.png" alt=""
+            <img src="../assets/img/icon/person/评论.png" alt=""
                  style="width: 40px; margin-right: 10px;">
             <span>我的评论</span>
           </div>
-          <span style="color: #912627;">431<i
-              style="font-size: 12px;color: black;">/h</i></span>
+          <span style="color: #912627; cursor: pointer;">进入 ><i
+                      style="font-size: 12px;color: black;"></i></span>
 
         </div>
 
@@ -390,12 +390,12 @@
       <el-row style="margin-bottom: 10px;">
           <div style="display: flex ;align-items: center; justify-content: space-between;">
               <div style="display: flex;align-items: center;">
-                  <img src="../assets/img/icon/Group 1662.png" alt=""
+                  <img src="../assets/img/icon/person/员工认证.png" alt=""
                       style="width: 40px; margin-right: 10px;">
                   <span>资料修改</span>
               </div>
-              <span style="color: #912627;">431<i
-                      style="font-size: 12px;color: black;">/h</i></span>
+              <span style="color: #912627; cursor: pointer;">进入 ><i
+                      style="font-size: 12px;color: black;"></i></span>
 
           </div>
           <div></div>

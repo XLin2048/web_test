@@ -14,7 +14,7 @@
             <img src="../assets/img/gzhu.png" alt="">
           </el-col>
           <el-col :span="8" class="navRight">
-            <el-input placeholder="请输入"></el-input>
+            <el-input placeholder="请输入"  prefix-icon="el-icon-search"></el-input>
           </el-col>
         </el-row>
       </div>
@@ -40,7 +40,7 @@
        </el-main>
        <el-footer class="minWidth">
           <div class="contentCenter" style="line-height: 60px;">
-            <div style="text-align: center;">版权所属:XLin、Su、Ning</div>
+            <div style="text-align: center;color: #d3d3d3;">版权所属:XLin、Su、Ning</div>
 
           </div>
        </el-footer>
@@ -165,7 +165,7 @@ export default {
 }
 
 .navSelectActive {
-  background-image: url(../assets/img/Group\ 1188.png);;
+  background-image: url(../assets/img/README.jpeg);;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;

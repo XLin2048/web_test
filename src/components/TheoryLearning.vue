@@ -35,7 +35,7 @@
               </div>
               <SerifheaderVue :title="book_title" />
               <ul clss="tl-ul">
-                <li class="tl-li" v-for="item in list_info">
+                <li class="tl-li" v-for="item in list_info" style="cursor: pointer;">
                   · {{item}}
                 </li>
               </ul>

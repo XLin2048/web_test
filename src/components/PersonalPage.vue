@@ -46,7 +46,7 @@
                     <el-col :span="8">
                       <div
                         style="width: 65px;height: 65px;background-color: #a40001;border-radius: 5px;line-height: 70px;text-align: center;">
-                        <i class="el-icon-caret-bottom" style="font-size: 24px;color: #fff;"></i>
+                        <i class="el-icon-user-solid" style="font-size: 24px;color: #fff;"></i>
                         <div style="font-weight: bold;">每日登陆</div>
                       </div>
                     </el-col>
@@ -55,11 +55,11 @@
 
                       <div>每日首次登陆</div>
                       <div>
-                        <el-progress :text-inside="true" :stroke-width="22" :percentage="100" status="warning"
+                        <el-progress :text-inside="true" :stroke-width="22" :percentage="100" status="success"
                           style="width: 150px;"></el-progress>
                       </div>
                       <div
-                        style="background-color: #979797;width: 100%;text-align: center;border-radius: 5px;color: #ebeef5;">
+                        style="background-color: #67c23a;width: 100%;text-align: center;border-radius: 5px;color: #ebeef5;">
 
                         已完成
 
@@ -76,7 +76,7 @@
                     <el-col :span="8">
                       <div
                         style="width: 65px;height: 65px;background-color: #a40001;border-radius: 5px;line-height: 70px;text-align: center;">
-                        <i class="el-icon-caret-bottom" style="font-size: 24px;color: #fff;"></i>
+                        <i class="el-icon-s-marketing" style="font-size: 24px;color: #fff;"></i>
                         <div style="font-weight: bold;">阅读时长</div>
                       </div>
                     </el-col>
@@ -85,11 +85,11 @@
 
                       <div>每日阅读理论、党史达1h</div>
                       <div>
-                        <el-progress :text-inside="true" :stroke-width="22" :percentage="100" status="warning"
+                        <el-progress :text-inside="true" :stroke-width="22" :percentage="100" status="success"
                           style="width: 150px;"></el-progress>
                       </div>
                       <div
-                        style="background-color: #979797;width: 100%;text-align: center;border-radius: 5px;color: #ebeef5;">
+                        style="background-color: #67c23a;width: 100%;text-align: center;border-radius: 5px;color: #ebeef5;">
 
                         已完成
 
@@ -106,7 +106,7 @@
                     <el-col :span="8">
                       <div
                         style="width: 65px;height: 65px;background-color: #a40001;border-radius: 5px;line-height: 70px;text-align: center;">
-                        <i class="el-icon-caret-bottom" style="font-size: 24px;color: #fff;"></i>
+                        <i class="el-icon-printer" style="font-size: 24px;color: #fff;"></i>
                         <div style="font-weight: bold;">精品收藏</div>
                       </div>
                     </el-col>
@@ -115,13 +115,13 @@
 
                       <div>每日收藏优质内容数量达到3</div>
                       <div>
-                        <el-progress :text-inside="true" :stroke-width="22" :percentage="100" status="warning"
+                        <el-progress :text-inside="true" :stroke-width="22" :percentage="42.23" 
                           style="width: 150px;"></el-progress>
                       </div>
                       <div
-                        style="background-color: #979797;width: 100%;text-align: center;border-radius: 5px;color: #ebeef5;">
+                        style="background-color: #409eff;width: 100%;text-align: center;border-radius: 5px;color: #ebeef5;">
 
-                        已完成
+                        未完成
 
                       </div>
 
@@ -136,7 +136,8 @@
                     <el-col :span="8">
                       <div
                         style="width: 65px;height: 65px;background-color: #a40001;border-radius: 5px;line-height: 70px;text-align: center;">
-                        <i class="el-icon-caret-bottom" style="font-size: 24px;color: #fff;"></i>
+                        <i class="el-icon-data-line
+                        " style="font-size: 24px;color: #fff;"></i>
                         <div style="font-weight: bold;">参与互动</div>
                       </div>
                     </el-col>
@@ -145,11 +146,11 @@
 
                       <div>每日通过阅读评论参与互动达到2</div>
                       <div>
-                        <el-progress :text-inside="true" :stroke-width="22" :percentage="100" status="warning"
+                        <el-progress :text-inside="true" :stroke-width="22" :percentage="100" status="success"
                           style="width: 150px;"></el-progress>
                       </div>
                       <div
-                        style="background-color: #979797;width: 100%;text-align: center;border-radius: 5px;color: #ebeef5;">
+                        style="background-color: #67c23a;width: 100%;text-align: center;border-radius: 5px;color: #ebeef5;">
 
                         已完成
 
@@ -166,7 +167,7 @@
                     <el-col :span="8">
                       <div
                         style="width: 65px;height: 65px;background-color: #a40001;border-radius: 5px;line-height: 70px;text-align: center;">
-                        <i class="el-icon-caret-bottom" style="font-size: 24px;color: #fff;"></i>
+                        <i class="el-icon-thumb" style="font-size: 24px;color: #fff;"></i>
                         <div style="font-weight: bold;">做好笔记</div>
                       </div>
                     </el-col>
@@ -175,13 +176,13 @@
 
                       <div>每日通过学习做好笔记达2条</div>
                       <div>
-                        <el-progress :text-inside="true" :stroke-width="22" :percentage="100" status="warning"
+                        <el-progress :text-inside="true" :stroke-width="22" :percentage="82.56" 
                           style="width: 150px;"></el-progress>
                       </div>
                       <div
-                        style="background-color: #979797;width: 100%;text-align: center;border-radius: 5px;color: #ebeef5;">
+                        style="background-color: #409eff;width: 100%;text-align: center;border-radius: 5px;color: #ebeef5;">
 
-                        已完成
+                        未完成
 
                       </div>
 
@@ -196,7 +197,7 @@
                     <el-col :span="8">
                       <div
                         style="width: 65px;height: 65px;background-color: #a40001;border-radius: 5px;line-height: 70px;text-align: center;">
-                        <i class="el-icon-caret-bottom" style="font-size: 24px;color: #fff;"></i>
+                        <i class="el-icon-postcard" style="font-size: 24px;color: #fff;"></i>
                         <div style="font-weight: bold;">每日互动</div>
                       </div>
                     </el-col>
@@ -205,13 +206,13 @@
 
                       <div>每日答题分数达到60</div>
                       <div>
-                        <el-progress :text-inside="true" :stroke-width="22" :percentage="100" status="warning"
+                        <el-progress :text-inside="true" :stroke-width="22" :percentage="32.33" 
                           style="width: 150px;"></el-progress>
                       </div>
                       <div
-                        style="background-color: #979797;width: 100%;text-align: center;border-radius: 5px;color: #ebeef5;">
+                        style="background-color: #409eff;width: 100%;text-align: center;border-radius: 5px;color: #ebeef5;">
 
-                        已完成
+                        未完成
 
                       </div>
 
@@ -226,7 +227,7 @@
           </div>
 
           <!-- 下方内容 -->
-          <div class="bottom">
+          <div class="bottom" style="margin-top: 20px;">
             <el-card style="width: 890px;" shadow="hover">
               <!-- 顶部标题 -->
               <div slot="header" style="display: flex; align-items: center;">

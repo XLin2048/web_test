@@ -4,7 +4,7 @@
             <li class="el-li" v-for="item in list_items">
                 <el-row>
                     <el-col :span="18">
-                        <div class="el-text">{{ item.text }}</div>
+                        <div class="el-text" style="cursor: pointer;">{{ item.text }}</div>
                     </el-col>
                     <el-col :span="6">
                         <div class="el-date">{{ item.date }}</div>

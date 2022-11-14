@@ -25,7 +25,7 @@
         <div style="display: flex;align-items: center;justify-content: space-between;">
           <!-- 左边图片文字 -->
           <div style="display: flex;align-items: center;">
-          <img src="../assets/img/4.jpg" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
+          <img src="../assets/img/Group 1779.png" style="width: 300px;height: 90px;margin-right: 20px;">
           
           软件工程系-软件工程系党委简介</div>
           <!-- 日期 -->
@@ -37,7 +37,7 @@
         <div style="display: flex;align-items: center;justify-content: space-between;">
           <!-- 左边图片文字 -->
           <div style="display: flex;align-items: center;">
-          <img src="../assets/img/4.jpg" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
+          <img src="../assets/img/Group 1780.png" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
           
           网络技术系-网络技术系党委简介</div>
           <!-- 日期 -->
@@ -49,7 +49,7 @@
         <div style="display: flex;align-items: center;justify-content: space-between;">
           <!-- 左边图片文字 -->
           <div style="display: flex;align-items: center;">
-          <img src="../assets/img/4.jpg" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
+          <img src="../assets/img/Group 1781.png" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
           
           电子系-电子系党委简介</div>
           <!-- 日期 -->
@@ -61,7 +61,7 @@
         <div style="display: flex;align-items: center;justify-content: space-between;">
           <!-- 左边图片文字 -->
           <div style="display: flex;align-items: center;">
-          <img src="../assets/img/4.jpg" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
+          <img src="../assets/img/Group 1782.png" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
           
           计算机系-计算机系党委简介</div>
           <!-- 日期 -->
@@ -73,7 +73,7 @@
         <div style="display: flex;align-items: center;justify-content: space-between;">
           <!-- 左边图片文字 -->
           <div style="display: flex;align-items: center;">
-          <img src="../assets/img/4.jpg" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
+          <img src="../assets/img/Group 1783.png" alt="" style="width: 300px;height: 90px;margin-right: 20px;">
           
           管理系-管理系党委简介</div>
           <!-- 日期 -->

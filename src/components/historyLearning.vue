@@ -20,7 +20,7 @@
                         </div>
                     </div>
                     <!-- 主体内容 -->
-                    <el-card style="margin-bottom: 10px;cursor: pointer" shadow="hover">
+                    <el-card style="margin-bottom: 10px;cursor: pointer" shadow="hover" >
                         <div style="display: flex;justify-content: space-between;">
                             <!-- 内容 -->
                         <div>风云激荡战鹿城</div>
@@ -193,7 +193,20 @@
 </template>
 <script>
 export default {
-    
+    data(){
+        return {
+            active:''
+        }
+    },
+    methods: {
+        mouseOver(){
+            this.active = 'color:#a40000'
+        },
+        mouseLeave(){
+            this.active = ''
+
+        }
+    },
 }
 </script>
 <style scoped>
